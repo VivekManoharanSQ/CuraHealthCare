@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Verify User is able to login successfully
+Description: </description>
+   <name>SQMS-2 Verify User is able to login successfully</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10035&quot;:&quot;Scenario: Verify Successful user login\n  \n  Given application is launced\n  And enter username\n  And enter password\n  When user clicked on login\n  Then user should navigate to the home page&quot;,&quot;customfield_10020&quot;:[{&quot;id&quot;:3,&quot;name&quot;:&quot;SQMS Sprint 1&quot;,&quot;state&quot;:&quot;active&quot;,&quot;boardId&quot;:2,&quot;goal&quot;:&quot;&quot;,&quot;startDate&quot;:&quot;2024-02-06T12:11:04.486Z&quot;,&quot;endDate&quot;:&quot;2024-02-20T12:11:58.000Z&quot;}],&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0000f:&quot;},&quot;status&quot;:{&quot;id&quot;:3,&quot;description&quot;:&quot;This issue is being actively worked on at the moment by the assignee.&quot;,&quot;iconUrl&quot;:&quot;https://skillquotientjira.atlassian.net/images/icons/statuses/inprogress.png&quot;,&quot;statusCategory&quot;:{&quot;id&quot;:4,&quot;key&quot;:&quot;indeterminate&quot;,&quot;colorName&quot;:&quot;yellow&quot;,&quot;self&quot;:&quot;https://skillquotientjira.atlassian.net/rest/api/2/statuscategory/4&quot;,&quot;name&quot;:&quot;In Progress&quot;},&quot;self&quot;:&quot;https://skillquotientjira.atlassian.net/rest/api/2/status/3&quot;,&quot;name&quot;:&quot;In Progress&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://skillquotientjira.atlassian.net/rest/api/2/project/10001&quot;,&quot;key&quot;:&quot;SQMS&quot;,&quot;id&quot;:10001,&quot;name&quot;:&quot;Skill Quotient Management System&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Verify User is able to login successfully&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;vivek.manoharan@skillquotientgroup.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Vivek&quot;,&quot;accountId&quot;:&quot;712020:ba45da3c-6440-431e-b64f-5ab27678cf45&quot;,&quot;self&quot;:&quot;https://skillquotientjira.atlassian.net/rest/api/2/user?accountId\u003d712020%3Aba45da3c-6440-431e-b64f-5ab27678cf45&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://skillquotientjira.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://skillquotientjira.atlassian.net/rest/api/2/issue/SQMS-2/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://skillquotientjira.atlassian.net/rest/api/2/issue/10002&quot;,&quot;key&quot;:&quot;SQMS-2&quot;,&quot;id&quot;:10002}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment>Scenario: Verify Successful user login
+  
+  Given application is launced
+  And enter username
+  And enter password
+  When user clicked on login
+  Then user should navigate to the home page</comment>
+   <testCaseGuid>eacfe807-65be-4adf-a85e-b8a458356ed2</testCaseGuid>
+</TestCaseEntity>

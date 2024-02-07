@@ -1,0 +1,51 @@
+[35m[Appium][39m Welcome to Appium v2.4.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m57477[39m }
+[35m[Appium][39m Attempting to load driver xcuitest...
+[35m[Appium][39m Attempting to load driver uiautomator2...
+[35m[Appium][39m Appium REST http interface listener started on http://0.0.0.0:57477/wd/hub
+[35m[Appium][39m You can provide the following URLs in your client code to connect to this server:
+[35m[Appium][39m 	http://192.168.100.229:57477/wd/hub
+[35m[Appium][39m 	http://127.0.0.1:57477/wd/hub (only accessible from the same host)
+[35m[Appium][39m Available drivers:
+[35m[Appium][39m   - xcuitest@5.13.1 (automationName 'XCUITest')
+[35m[Appium][39m   - uiautomator2@2.44.2 (automationName 'UiAutomator2')
+[35m[Appium][39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m6 ms - 110[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 110[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"desiredCapabilities":{"appium:systemPort":57530,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:fullReset":false,"appium:platformVersion":"14","appium:noReset":true,"appium:udid":"emulator-5554","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 14)","platformName":"Android","appium:app":"C:\\Users\\skquo\\Downloads\\calculator-14-4-2.apk"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\skquo\\Downloads\\calculator-14-4-2.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 14)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"14","appium:systemPort":57530,"appium:udid":"emulator-5554","platformName":"android"}]}}[39m
+[38;5;32m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
+[38;5;32m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[35m[Appium][39m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\skquo\.appium\node_modules\appium-uiautomator2-driver
+[38;5;16m[AppiumDriver@7871][0m Appium v2.4.1 creating new AndroidUiautomator2Driver (v2.44.2) session
+[38;5;16m[AppiumDriver@7871][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@7871][0m Appium's BaseDriver version is 9.5.0
+[38;5;16m[AppiumDriver@7871][0m AndroidUiautomator2Driver's BaseDriver version is 9.5.0
+[38;5;48m[AndroidUiautomator2Driver@4674 (938894eb)][0m Session created with session id: 938894eb-c402-4779-89c1-59b9f83eaa58
+[38;5;32m[BaseDriver][0m Using local app 'C:\Users\skquo\Downloads\calculator-14-4-2.apk'
+[38;5;64m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\skquo\.katalon\tools\android_sdk' (newest first):
+[38;5;64m[ADB][0m     C:\Users\skquo\.katalon\tools\android_sdk\build-tools\29.0.3
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\skquo\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;48m[AndroidUiautomator2Driver@4674 (938894eb)][0m Retrieving device list
+[38;5;48m[AndroidUiautomator2Driver@4674 (938894eb)][0m Using device: emulator-5554
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\skquo\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;64m[ADB][0m Getting device platform version
+[38;5;48m[AndroidUiautomator2Driver@4674 (938894eb)][0m Relaxing hidden api policy
+[38;5;64m[ADB][0m Package name: 'com.coloros.calculator'
+[38;5;64m[ADB][0m Main activity name: 'com.android.calculator2.Calculator'
+[38;5;64m[ADB][0m The application at 'C:\Users\skquo\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;64m[ADB][0m The application at 'C:\Users\skquo\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;64m[ADB][0m The application at 'C:\Users\skquo\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;48m[AndroidUiautomator2Driver@4674 (938894eb)][0m Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+[38;5;48m[AndroidUiautomator2Driver@4674 (938894eb)][0m Restoring hidden api policy to the device default configuration
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m16450 ms - 2666[39m
+[38;5;0m[HTTP][0m [90m[39m
